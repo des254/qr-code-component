@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Small Mobile phones*/
+@media screen and (max-width:320px) {
+    
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+.main-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.qr-component {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 78vw;
+    padding: 0.8rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#qr-code {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#title {
+    font-size: 1.25rem;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+}
+
+#intro {
+    font-size: 0.9rem;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 1rem;
+}
+
+/*
+.attribution { 
+    position: relative;
+    top: 100%;
+    font-size: 11px; 
+    text-align: center;
+    border: 1px solid gray; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+*/
+}
+
+/*Medium Mobile phones*/
+@media screen and (min-width:321px) and (max-width:375px) {
+
+    body {
+        font-family: "Outfit", sans-serif;
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    
+    .main-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .qr-component {
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80vw;
+        padding: 0.85rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    #qr-code {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    #title {
+        font-size: 23px;
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 1rem;
+    }
+    
+    #intro {
+        font-size: 17px;
+        color: hsl(220, 15%, 55%);
+        margin-bottom: 1rem;
+    }
+    
+    /*
+    .attribution { 
+        position: relative;
+        top: 100%;
+        font-size: 11px; 
+        text-align: center;
+        border: 1px solid gray; 
+    }
+    
+    .attribution a { color: hsl(228, 45%, 44%); }
+    */
+
+
+}
+
+/*Large Mobile phones*/
+@media screen and (min-width:376px) and (max-width:425px) {
+    
+    body {
+        font-family: "Outfit", sans-serif;
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    
+    .main-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .qr-component {
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 83vw;
+        padding: 0.85rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    #qr-code {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    #title {
+        font-size: 27px;        
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 1rem;
+    }
+    
+    #intro {
+        font-size: 21.5px;
+        color: hsl(220, 15%, 55%);
+        margin-bottom: 1rem;
+    }
+    
+    /*
+    .attribution { 
+        position: relative;
+        top: 100%;
+        font-size: 11px; 
+        text-align: center;
+        border: 1px solid gray; 
+    }
+    
+    .attribution a { color: hsl(228, 45%, 44%); }
+    */
+
+}
+
+/*Tablets*/
+@media screen and (min-width:426px) and (max-width:768px) {
+    
+    body {
+        font-family: "Outfit", sans-serif;
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    
+    .main-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    
+    .qr-component {
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+        padding: 0.85rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    #qr-code {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    #title {
+        font-size: 21px;      
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 1rem;
+    }
+    
+    #intro {
+        font-size: 15.5px;
+        color: hsl(220, 15%, 55%);
+        margin-bottom: 1rem;
+    }
+    
+    /*
+    .attribution { 
+        position: relative;
+        top: 100%;
+        font-size: 11px; 
+        text-align: center;
+        border: 1px solid gray; 
+    }
+    
+    .attribution a { color: hsl(228, 45%, 44%); }
+    */
+
+}
+
+/*Laptop 1024px*/
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    body {
+        font-family: "Outfit", sans-serif;
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    
+    .main-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+    }
+    
+    .qr-component {
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+        padding: 0.9rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    #qr-code {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    #title {
+        font-size: 21.5px;      
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 1rem;
+    }
+    
+    #intro {
+        font-size: 16px;
+        color: hsl(220, 15%, 55%);
+        margin-bottom: 1.5rem;
+    }
+    
+    /*
+    .attribution { 
+        position: relative;
+        top: 100%;
+        font-size: 11px; 
+        text-align: center;
+        border: 1px solid gray; 
+    }
+    
+    .attribution a { color: hsl(228, 45%, 44%); }
+    */
+
+}
+
+
+/*Laptop 1440px*/
+@media screen and (min-width:1025px) {
+    
+    body {
+        font-family: "Outfit", sans-serif;
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    
+    .main-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+    
+    .qr-component {
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+        padding: 0.9rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    #qr-code {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    #title {
+        font-size: 26px;      
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 1rem;
+    }
+    
+    #intro {
+        font-size: 19px;
+        color: hsl(220, 15%, 55%);
+        margin-bottom: 1.5rem;
+    }
+    
+    /*
+    .attribution { 
+        position: relative;
+        top: 100%;
+        font-size: 11px; 
+        text-align: center;
+        border: 1px solid gray; 
+    }
+    
+    .attribution a { color: hsl(228, 45%, 44%); }
+    */
+
+}
+
